@@ -44,3 +44,7 @@ Import the SQL file:
 5. **Start server**:
 
    * Use XAMPP/WAMP/Laragon and open it locally:
+
+## screenshots
+
+<img width="398" height="864" alt="Picture2" src="https://github.com/user-attachments/assets/c64ce033-cd54-46c9-b15c-7b26268d3681" />
