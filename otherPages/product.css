@@ -1,0 +1,131 @@
+*{
+    font-family: "Martel Sans", sans-serif; 
+}
+.breakbead{
+    width: 100%;
+    height: 40  px;
+    color: grey;
+    padding: 5px 5px 5px 50px;
+    font-weight: 500;
+    font-size: small;
+}  
+.main-item{
+    display: flex;
+    width: 100%;
+    height: max-content;
+}
+.product-img-con{
+    width: 45%;
+    height: 600px;
+    padding-left: 100px;
+    padding-top: 75px;
+}
+.itm-img{
+    width: 100%;
+    height: 100%;
+}
+.itm-info{
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+}
+.itm-info h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+.itm-img{
+    overflow: hidden;
+}
+#sub-title{
+    font-weight: 700;
+    color: grey;
+    font-size:15px ;
+    transition: all 0.1s ease-out;
+}
+#sub-title:hover{
+    padding: 0px 10px 0px 10px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size:15px ;
+}
+.item-price{
+    width: max-content;
+    height: max-content;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.item-price span {
+    font-size: 15px;
+}
+.quantity-cart{
+    margin-top:10px ;
+    display: flex;
+}
+.quentity-con{
+    width: 150px;
+    height: 50px;
+}
+.quentity-btn{
+    width: 100%;
+    height:  100%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-between;
+}
+.quentity-act{
+    font-weight: 900;
+    width: 28%;
+    border: none;
+    cursor: pointer;
+}
+.quentity-count{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.add-to-cart{
+    width: 180px;
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: yellow;
+    color: black;
+    z-index: 1;
+    padding: 10px;
+    cursor: pointer;
+}
+.add-to-cart::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    z-index: -1;
+    transform-origin: left;
+    height: 100%;
+    width: 0;
+    transition: all 0.2s;
+}
+.add-to-cart:hover::after{
+    width: 100%;
+}
+.add-to-cart-text{
+    font-weight: 700;
+    transition: all 0.2s;
+}
+.add-to-cart:hover .add-to-cart-text{
+    color: white;
+}
+.add-to-cart:hover button{
+    color: white;
+}
+.details{
+    margin-top: 25px;
+}
