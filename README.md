@@ -27,7 +27,6 @@ A beginner-friendly, not so responsive eCommerce website for a fictional sports 
 ---
 
 
----
 
 ## 💻 How to Run Locally
 
