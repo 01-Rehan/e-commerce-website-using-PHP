@@ -5,6 +5,8 @@
 
 A beginner-friendly, not so responsive eCommerce website for a fictional sports store, built using **HTML**, **CSS**, **JavaScript**, **PHP**, and **MySQL**. Users can browse products, manage a cart, and log in or register to simulate a basic online shopping experience.
 
+### Note :I created this website in second semester of the collage so there might be some mistakes because of the lack of knowledge :) 
+
 ---
 
 ## 🚀 Features
